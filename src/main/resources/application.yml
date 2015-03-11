@@ -24,3 +24,5 @@ eureka:
       defaultZone: ${EUREKA_URL}/eureka
   instance:
       hostname: ${DOMAIN_NAME}
+      nonSecurePort: 80
+  password: ${EUREKA_USER_PASSWORD}

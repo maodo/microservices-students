@@ -22,3 +22,7 @@ eureka:
   client:
     serviceUrl: 
       defaultZone: ${EUREKA_HOST_URL}/eureka
+
+eureka:
+  instance:
+    hostname: ${DOMAIN_NAME}

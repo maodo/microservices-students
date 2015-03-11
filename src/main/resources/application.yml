@@ -16,7 +16,7 @@ spring:
 ---
 
 spring:
-  profile: cloud
+  profiles: cloud
 
 eureka:
   client:

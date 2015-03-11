@@ -8,10 +8,9 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
 
-spring:
-  cloud:
-    config:
-      enabled: false
+security:
+  user:
+    password: ${eureka.password}
 
 ---
 
